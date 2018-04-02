@@ -1,0 +1,208 @@
+/* App, General */
+.App {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clickable-text {
+  color: #0D5499;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.horizontal-divider {
+  color: #E4E4E4;
+  width: 90%;
+}
+
+.title {
+  color: #7D878D;
+  font-size: 14px;
+  justify-content: left;
+  text-transform: uppercase;
+}
+
+/* Tabs */
+
+.active-tab {
+  border-bottom: none !important;
+}
+
+.categories-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -2px;
+  text-transform: uppercase;
+}
+
+.empty-tab {
+  cursor: default !important;
+  border-top: none !important;
+}
+
+.inactive-tab {
+  background-color: #F0F4F5;
+}
+
+.tab {
+  border: 1px solid;
+  border-right: none;
+  color: #7D878D;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 1px 0px;
+  padding: 1px 5px;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.tab-text {
+  margin: 5px;
+}
+
+/* Sections */
+
+.double-cell {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.section-container {
+  border: 1px solid;
+  border-top: none;
+  border-color: #7D878D;
+  width: 500px;
+}
+
+.single-cell {
+  height: 50%;
+}
+
+/* Half Width */
+
+.fa-camera {
+  margin: 0px 5px;
+}
+
+.half-width-body {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.half-width-container {
+  margin: 5px 10px;
+  width: 60%;
+  flex-grow: 0;
+}
+
+.half-width-container .body-text {
+  margin: 0 0 5px 0;
+  width: 40%;
+}
+
+.half-width-container .header {
+  color: #0D5499;
+  cursor: pointer;
+  margin-bottom: 0;
+  width: 70%;
+}
+
+.half-width-container .image {
+  margin-left: 20px;
+  height: 128px;
+  width: 128px;
+}
+
+/* List View */
+
+.bullet-point:before {
+  content: '\2022';
+  color: #7D878D;
+  margin-right: 5px;
+}
+
+.list-view-container {
+  margin: 5px 10px;
+  width: 45%;
+}
+
+/* Full Width */
+
+.full-width-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.full-width-container .clickable-text {
+  font-weight: 700;
+  font-size: 12px;
+  margin-left: 25px;
+}
+
+.full-width-container .image {
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 140px;
+  width: 250px;
+}
+
+.logo {
+  margin: 10px 25px;
+  height: 75px;
+  width: 150px;
+}
+
+/* Call To Action */
+
+.call-to-action {
+  height: 10%;
+  text-align: center;
+}
+
+.call-to-action:after {
+  content: '\00BB';
+  margin-left: 5px;
+}
+
+/* Images */
+
+.ad-large-autos {
+  background: url(./images/autos-ad.jpg) no-repeat;
+}
+
+.ad-large-jobs {
+  background: url(./images/jobs-ad.jpg) no-repeat;
+}
+
+.ad-large-real-estate {
+  background: url(./images/real-estate-ad.jpg) no-repeat;
+}
+
+.ad-small-autos {
+  background: url(./images/autos-ad-small.jpg) no-repeat;
+}
+
+.ad-small-jobs {
+  background: url(./images/jobs-ad-small.jpg) no-repeat;
+}
+
+.ad-small-real-estate {
+  background: url(./images/real-estate-ad-small.jpg) no-repeat;
+}
+
+.image-autos {
+  background: url(./images/autos-image.jpg) no-repeat;
+}
+
+.image-jobs {
+  background: url(./images/jobs-image.jpg) no-repeat;
+}
+
+.image-real-estate {
+  background: url(./images/real-estate-image.jpg) no-repeat;
+}
